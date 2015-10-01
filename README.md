@@ -24,6 +24,9 @@ This gem contains an `eval` call! `lib/acts_as_archivable/migrating.rb` calls `e
       acts_as_archivable months_to_keep: 2
     end
 
+    # Copy the comments table structure to archived_comments
+    Comment.create_archived_table
+
 ### Scopes
 
     # all records older than 2 months
