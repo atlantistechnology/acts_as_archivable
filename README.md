@@ -7,7 +7,7 @@ ActsAsArchivable makes it super easy to move database records to an archive tabl
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'acts_as_archivable'
+gem 'acts_as_archivable', git: 'git@github.com:atlantistechnology/acts_as_archivable.git'
 ```
 
 And then execute:
