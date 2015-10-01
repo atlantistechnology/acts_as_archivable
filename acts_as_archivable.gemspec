@@ -8,8 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = ActsAsArchivable::VERSION
   spec.authors       = ['Jon Collier']
   spec.email         = ['jcollier@atlantistech.com']
-  spec.summary       = 'TODO: Write a short summary. Required.'
-  spec.description   = 'TODO: Write a longer description. Optional.'
+  spec.summary       = 'ActsAsArchivable makes it super easy '\
+                       'to move database records to an archive table.'
+  spec.description   = 'There has never been a better time '\
+                       'to move database records to an archive table.'
   spec.homepage      = ''
   spec.license       = 'MIT'
 
