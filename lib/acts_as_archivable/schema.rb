@@ -9,7 +9,9 @@ module ActsAsArchivable
     end
 
     def archived_table_schema
-      table_schema.gsub(/#{table_name}/, archived_table_name)
+      table_schema
+        .gsub(/#{table_name}/, archived_table_name)
+        .gsub(/(create_table|add_index)/, 'ActiveRecord::Migration.\1')
     end
   end
 end

@@ -8,5 +8,5 @@ describe ActsAsArchivable::Migrating do
   end
   subject! { PageRequest }
 
-
+  it { is_expected.to respond_to :create_archived_table }
 end
