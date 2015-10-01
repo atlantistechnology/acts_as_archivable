@@ -14,6 +14,8 @@ And then execute:
 
     $ bundle
 
+## WARNING
+This gem contains an `eval` call! `lib/acts_as_archivable/migrating.rb` calls `eval(archived_table_schema)` in order to create the archived version of a given table. 
 
 ## Usage
 ### Setup
